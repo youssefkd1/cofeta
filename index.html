@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a website for a Coffee shop">
+    <title>Coffee Website</title>
+    <link rel="shortcut icon" href="images/coffee-icon-svgrepo-com (5).svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" aria-disabled="true" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" aria-disabled="true" media="all" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Cofeta</h2>
+            </a>
+            <ul class="nav-menu">
+                <button aria-label="Aria Name" aria-labelledby="labeldiv" id="menu-close-button"><i class="fas fa-times"></i></button>
+                <li class="nav-item"><a aria-label="Read more" href="#home" class="nav-link">Home <i class="fa-solid fa-house"></i></a></li>
+                <li class="nav-item"><a aria-label="Read more" href="#about" class="nav-link">About <i class="fa-solid fa-circle-info"></i></a></li>
+                <li class="nav-item"><a aria-label="Read more" href="#menu" class="nav-link">Menu <i class="fa-solid fa-utensils"></i></a></li>
+                <li class="nav-item"><a aria-label="Read more" href="#testimonials" class="nav-link">Testimonials <i class="fa-solid fa-users"></i></a></li>
+                <li class="nav-item"><a aria-label="Read more" href="#gallary" class="nav-link">Gallary <i class="fa-solid fa-images"></i></a></li>
+                <li class="nav-item"><a aria-label="Read more" href="#contact" class="nav-link">Contact <i class="fa-solid fa-phone"></i></a></li>
+            </ul>
+            <button aria-label="Aria Name" aria-labelledby="labeldiv" id="menu-open-button"><i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a aria-label="Read more" href="#" class="button order-now">Order Now <i class="fa-solid fa-mug-saucer"></i></a>
+                        <a aria-label="Read more" href="#" class="button contact-us">Contact-Us <i class="fa-solid fa-handshake"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.webp" class="hero-image" alt="this is hero image">
+                </div>
+            </div>
+        </section>
+        <!-- about section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img loading="lazy" src="images/about-image.webp" alt="this is an about image" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Coffee House in berndorf, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike.
+                        we are dedicated to providing an exceptional experience for our customers, whether you're a coffee aficionado or just looking for a cozy spot
+                    </p>
+                    <div class="social-link-list">
+                        <a aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menu section -->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range od Steaming hot coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">cold Beverages</h3>
+                        <p class="text">Creamy and frothy cold coffee to make you feel cool.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Fruity adn refreshing drink to make you feel refresh.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo (1).webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Your favourite eating and drinking combations.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.webp" loading="lazy" class="menu-image" alt="this is an image for some thing in the menu">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+         <!-- testionials section -->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.webp" loading="lazy" alt="user-image" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.webp" loading="lazy" alt="user-image" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.webp" loading="lazy" alt="user-image" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Fantastic mocha flavor! Rich and creamy. Highly recommend!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-4.webp" loading="lazy" alt="user-image" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and perfect roast. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.webp" loading="lazy" alt="user-image" class="user-image">
+                                <h3 class="name">Anthony Davis</h3>
+                                <i class="feedback">"Best decaf coffee I've ever had! Smooth and flavorful. Arrived promptly."</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallary section -->
+         <section class="gallary-section" id="gallary">
+            <h2 class="section-title">GALLARY</h2>
+            <div class="section-content">
+                <ul class="gallary-list">
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-1.webp" alt="gallary-image" class="gallary-image"></li>
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-2.webp" alt="gallary-image" class="gallary-image"></li>
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-3.webp" alt="gallary-image" class="gallary-image"></li>
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-4.webp" alt="gallary-image" class="gallary-image"></li>
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-5.webp" alt="gallary-image" class="gallary-image"></li>
+                    <li class="gallary-item"><img loading="lazy" src="images/gallery-6.webp" alt="gallary-image" class="gallary-image"></li>
+                </ul>
+            </div>
+         </section>
+        <!-- contact section -->
+         <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@coffeeshopwebsite.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>01062234679</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Saturday: 10:00 AM - 3:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sunday: Closed</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p><a target="_blank" aria-label="Read more" href="https://portfolio-1-five-virid.vercel.app/">Developer website</a></p>
+                        </li>
+                    </ul>
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="your name" class="form-input" required/>
+                        <input type="email" placeholder="your email" class="form-input" required/>
+                        <textarea class="form-input" placeholder="your message"></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+         </section>
+         <!-- footer section -->
+         <footer>
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Cofeta Coffee Shop. All rights reserved.</p>
+                <div class="social-link-list">
+                    <a aria-label="Read more" aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a aria-label="Read more" aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a aria-label="Read more" aria-label="Read more" href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text"><a href="#" class="policy-link">Privacy Policy</a></p>
+                
+            </div>
+         </footer>
+    </main>
+
+    <!-- linking js files & cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
