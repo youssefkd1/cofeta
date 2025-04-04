@@ -507,3 +507,8 @@ footer .social-link:hover{
         gap: 20px;
     }
 }
+@media screen and (max-width: 450px) {
+    .menu-section{
+        height: 300vh;
+    }
+}
